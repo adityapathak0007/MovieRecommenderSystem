@@ -8,7 +8,6 @@ The Movie Recommender System is a web application built using Streamlit. It reco
 
 - **Movie Recommendations:** Provides a list of recommended movies based on the selected movie.
 - **Movie Posters:** Displays movie posters for recommended movies.
-- **Dark Theme:** The app uses a dark theme for a modern look and feel.
 
 ## Technologies Used
 
