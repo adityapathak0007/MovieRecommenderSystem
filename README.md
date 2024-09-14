@@ -80,8 +80,7 @@ To ensure that the app works properly:
 
 You can configure the app by updating the following variables in the script:
 
-- [file_url](https://drive.google.com/uc?id=1nRxFIkLs-lfRtUVozJCUAEssNkiigzd8): URL for downloading the `similarity.pkl` file.
-
+- [Download Similarity Matrix](https://drive.google.com/uc?id=1nRxFIkLs-lfRtUVozJCUAEssNkiigzd8): This link provides the `similarity.pkl` file required by the app.
 - Update the `api_key` in the `fetch_poster` function with your own TMDB API key if needed to fetch movie posters.
 
 
