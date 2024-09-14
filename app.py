@@ -5,25 +5,7 @@ import gdown
 import requests
 
 
-def add_background_image():
-    background_image_url = "https://raw.githubusercontent.com/adityapathak0007/MovieRecommenderSystem/main/img.jpg"
-    st.markdown(
-        f"""
-        <style>
-        .reportview-container {{
-            background: url("{background_image_url}") no-repeat center center fixed;
-            background-size: cover;
-        }}
-        .sidebar .sidebar-content {{
-            background: rgba(255, 255, 255, 0.8);
-        }}
-        .css-1l02p1i {{
-            padding: 2rem;
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+
 
 def download_file(url, filename):
     try:
