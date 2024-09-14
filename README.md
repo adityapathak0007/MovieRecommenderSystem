@@ -34,3 +34,25 @@ Clone the repository and install the required packages:
 git clone <repository-url>
 cd <repository-directory>
 pip install -r requirements.txt
+
+
+## Usage
+
+### Download Required Files
+
+The app requires two files to function correctly:
+
+1. **`similarity.pkl`**: Contains the similarity matrix used to find similar movies.
+2. **`movie_dict.pkl`**: Contains the movie data needed for recommendations.
+
+To ensure that the app works properly:
+
+1. **Update the `file_url` Variable:**
+
+   - In the `app.py` script, update the `file_url` variable with the Google Drive link to the `similarity.pkl` file.
+   - The `file_url` should look something like this: `https://drive.google.com/uc?id=<your-file-id>`.
+
+   Example:
+   ```python
+   file_url = "https://drive.google.com/uc?id=1nRxFIkLs-lfRtUVozJCUAEssNkiigzd8"
+
