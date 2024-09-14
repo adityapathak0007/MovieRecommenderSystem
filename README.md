@@ -1,5 +1,6 @@
 # Movie Recommender System 🎬
 
+[View Movie Recommender System](https://movierecommendersystem-3mwpnnrwcxlph9wavxwhob.streamlit.app/)
 ## Overview
 
 The Movie Recommender System is a web application built using Streamlit. It recommends movies based on user input using a similarity matrix derived from movie features. The app allows users to select a movie from a dropdown menu and displays a list of recommended movies along with their posters.
