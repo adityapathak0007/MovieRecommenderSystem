@@ -7,7 +7,7 @@ import requests
 def download_file(url, filename):
     try:
         gdown.download(url, filename, quiet=False)
-        st.success(f"File downloaded successfully: {filename}")
+        st.success
     except Exception as e:
         st.error(f"Failed to download file: {e}")
 
@@ -40,7 +40,7 @@ download_file(file_url, 'similarity.pkl')
 try:
     with open('similarity.pkl', 'rb') as file:
         similarity = pickle.load(file)
-        st.success("Pickle file loaded successfully.")
+        st.success
 except Exception as e:
     st.error(f"Error loading pickle file: {e}")
 
@@ -49,7 +49,7 @@ try:
     with open('movie_dict.pkl', 'rb') as file:
         movies_dict = pickle.load(file)
         movies = pd.DataFrame(movies_dict)
-        st.success("Movie dictionary loaded and DataFrame created successfully.")
+        st.success
 except Exception as e:
     st.error(f"Error loading movies pickle file: {e}")
 
