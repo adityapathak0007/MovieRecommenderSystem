@@ -91,6 +91,18 @@ You can view the live Movie Recommender System app by clicking on the link below
 [View Movie Recommender System](https://movierecommendersystem-3mwpnnrwcxlph9wavxwhob.streamlit.app/)
 
 
+## Contact
+
+For any questions, suggestions, or feedback, please feel free to reach out:
+
+- **Your Name:** [Aditya Pathak]
+- **Email:** [adityapathak034@gmail.com]
+- **GitHub:** [adityapathak0007](https://github.com/adityapathak0007)
+- **LinkedIn:** [adityapathak07](www.linkedin.com/in/adityapathak07)
+
+We appreciate your feedback and contributions to improve this project!
+
+
 ### Install Dependencies
 
 Clone the repository and install the required packages:
@@ -99,6 +111,3 @@ Clone the repository and install the required packages:
 git clone <repository-url>
 cd <repository-directory>
 pip install -r requirements.txt
-
-
-
