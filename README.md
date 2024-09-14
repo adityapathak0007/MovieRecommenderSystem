@@ -100,8 +100,6 @@ For any questions, suggestions, or feedback, please feel free to reach out:
 - **GitHub:** [adityapathak0007](https://github.com/adityapathak0007)
 - **LinkedIn:** [adityapathak07](www.linkedin.com/in/adityapathak07)
 
-We appreciate your feedback and contributions to improve this project!
-
 
 ### Install Dependencies
 
