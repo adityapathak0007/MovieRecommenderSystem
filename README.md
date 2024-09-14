@@ -17,6 +17,8 @@ The Movie Recommender System is a web application built using Streamlit. It reco
 - **Requests:** Library used for making HTTP requests to fetch movie posters.
 - **Gdown:** Library used for downloading files from Google Drive.
 - **Pickle:** Python library used for serializing and deserializing objects.
+- **Scikit-learn:** Library used for machine learning, specifically for feature extraction and similarity computation.
+- **NLTK:** Library used for natural language processing, specifically for stemming.
 
 ## Installation
 
