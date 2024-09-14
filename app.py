@@ -11,7 +11,7 @@ def add_background_image():
         """
         <style>
         .reportview-container {
-            background: url("https://your-image-url.com/your-image.jpg") no-repeat center center fixed;
+            background: url("https://github.com/adityapathak0007/MovieRecommenderSystem/blob/17393d99313d4ed16bb374585d832f5c73c56d71/img.jpg") no-repeat center center fixed;
             background-size: cover;
         }
         .sidebar .sidebar-content {
