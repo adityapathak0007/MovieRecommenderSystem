@@ -6,7 +6,7 @@ import requests
 
 
 def add_background_image():
-    background_image_url = "https://raw.githubusercontent.com/adityapathak0007/MovieRecommenderSystem/17393d99313d4ed16bb374585d832f5c73c56d71/img.jpg"
+    background_image_url = "https://github.com/adityapathak0007/MovieRecommenderSystem/blob/main/img.jpg"
     st.markdown(
         f"""
         <style>
