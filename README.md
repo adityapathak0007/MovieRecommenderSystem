@@ -95,7 +95,7 @@ You can view the live Movie Recommender System app by clicking on the link below
 
 For any questions, suggestions, or feedback, please feel free to reach out:
 
-- **Your Name:** [Aditya Pathak]
+- **Your Name:** Aditya Pathak
 - **Email:** adityapathak034@gmail.com
 - **GitHub:** [adityapathak0007](https://github.com/adityapathak0007)
 - **LinkedIn:** [adityapathak07](www.linkedin.com/in/adityapathak07)
