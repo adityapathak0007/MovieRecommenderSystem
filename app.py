@@ -5,21 +5,21 @@ import gdown
 import requests
 
 
-# Function to inject custom CSS
 def add_background_image():
+    background_image_url = "https://raw.githubusercontent.com/adityapathak0007/MovieRecommenderSystem/17393d99313d4ed16bb374585d832f5c73c56d71/img.jpg"
     st.markdown(
-        """
+        f"""
         <style>
-        .reportview-container {
-            background: url("img.jpg") no-repeat center center fixed;
+        .reportview-container {{
+            background: url("{background_image_url}") no-repeat center center fixed;
             background-size: cover;
-        }
-        .sidebar .sidebar-content {
+        }}
+        .sidebar .sidebar-content {{
             background: rgba(255, 255, 255, 0.8);
-        }
-        .css-1l02p1i {
+        }}
+        .css-1l02p1i {{
             padding: 2rem;
-        }
+        }}
         </style>
         """,
         unsafe_allow_html=True
