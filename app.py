@@ -4,6 +4,27 @@ import pandas as pd
 import gdown
 import requests
 
+
+# Function to inject custom CSS
+def add_background_image():
+    st.markdown(
+        """
+        <style>
+        .reportview-container {
+            background: url("https://your-image-url.com/your-image.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .sidebar .sidebar-content {
+            background: rgba(255, 255, 255, 0.8);
+        }
+        .css-1l02p1i {
+            padding: 2rem;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
 def download_file(url, filename):
     try:
         gdown.download(url, filename, quiet=False)
