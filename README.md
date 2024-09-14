@@ -26,9 +26,7 @@ The Movie Recommender System is a web application built using Streamlit. It reco
 
 Ensure you have Python 3.7 or higher installed on your system.
 
-## Usage
-
-### Download Required Files
+## Download Required Files
 
 The app requires two files to function correctly:
 
@@ -45,6 +43,13 @@ To ensure that the app works properly:
    Example:
    ```python
    file_url = "https://drive.google.com/uc?id=1nRxFIkLs-lfRtUVozJCUAEssNkiigzd8"
+
+
+## View the App
+
+You can view the live Movie Recommender System app by clicking on the link below:
+
+[View Movie Recommender System](https://movierecommendersystem-3mwpnnrwcxlph9wavxwhob.streamlit.app/)
 
 
 ### Install Dependencies
