@@ -107,6 +107,6 @@ For any questions, suggestions, or feedback, please feel free to reach out:
 Clone the repository and install the required packages:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone <https://github.com/adityapathak0007/MovieRecommenderSystem>
+cd <MovieRecommenderSystem>
 pip install -r requirements.txt
