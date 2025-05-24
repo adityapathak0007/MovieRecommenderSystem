@@ -7,9 +7,7 @@ import requests
 
 def download_file(url, filename):
     try:
-        
         gdown.download(url, filename, quiet=False)
-
     except Exception as e:
         st.error(f"Failed to download file: {e}")
 
@@ -52,8 +50,8 @@ st.markdown(
     <style>
     /* Apply dark theme to entire app */
     .css-1y0tad9 { 
-        background-color: #121212; /* Dark background color */ 
-        color: #e0e0e0; /* Light text color */ 
+        background-color: #121212; 
+        color: #e0e0e0; 
     }
 
     /* Style buttons */
@@ -106,7 +104,7 @@ if not movies.empty:
                 cols = st.columns(5)
                 for col, movie, poster in zip(cols, recommended_movies, recommended_movies_posters):
                     with col:
-                        st.image(poster, use_column_width=True)
+                        st.image(poster, use_container_width=True)
                         st.write(movie)
             else:
                 st.warning("No recommendations available at the moment.")
